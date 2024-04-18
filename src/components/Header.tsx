@@ -10,7 +10,7 @@ const Header: React.FC = () => {
         <button className="absolute right-4 grid aspect-square w-10 rounded-full p-1 outline-none md:hidden">
           <span className="sr-only">toggle menu</span>
           <span className="mt-2 h-0.5 w-8 rounded-full bg-gray-300 transition-transform duration-100 ease-linear" />
-          <span className="right-0 -mt-2	h-0.5 w-4 origin-center justify-self-end rounded-full bg-gray-300 transition-all duration-100 ease-linear" />
+          <span className="right-0 -mt-2 h-0.5 w-4 origin-center justify-self-end rounded-full bg-gray-300 transition-all duration-100 ease-linear" />
         </button>
         <div className="absolute -top-2 left-10 z-0 h-[116px] w-[276px] rounded-[276px] bg-sky-500 blur-[150px]"></div>
         <div className="absolute -top-2 left-10 z-0 h-[43px] w-[103px] rounded-[103px] bg-sky-500 blur-[40px]"></div>
